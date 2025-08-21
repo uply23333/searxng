@@ -13,27 +13,33 @@
 # Shopimisrel <shopisrael12@gmail.com>, 2022.
 # return42 <markus.heiser@darmarit.de>, 2023, 2024.
 # shoko <nickskorohod@outlook.com>, 2023.
-# return42 <return42@users.noreply.translate.codeberg.org>, 2024.
-# sacred-serpent <sacred-serpent@users.noreply.translate.codeberg.org>,
+# return42 <return42@users.noreply.translate.codeberg.org>, 2024, 2025.
+# sacred-serpent <sacred-serpent@users.noreply.translate.codeberg.org>,,
+# 2025.
 # 2024.
 # Shpubly <Shpubly@users.noreply.translate.codeberg.org>, 2024.
+# Anonymous <anonymous@users.noreply.translate.codeberg.org>, 2025.
+# shoko <shoko@users.noreply.translate.codeberg.org>, 2025.
+# RoyBarina <roybarina@users.noreply.translate.codeberg.org>, 2025.
+# ngf <ngf@noreply.codeberg.org>, 2025.
+# return42 <return42@noreply.codeberg.org>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version:  searx\n"
+"Project-Id-Version: searx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-10-05 06:24+0000\n"
-"PO-Revision-Date: 2024-08-27 16:18+0000\n"
-"Last-Translator: return42 <return42@users.noreply.translate.codeberg.org>"
-"\n"
+"POT-Creation-Date: 2025-07-03 14:46+0000\n"
+"PO-Revision-Date: 2025-08-07 05:25+0000\n"
+"Last-Translator: return42 <return42@noreply.codeberg.org>\n"
+"Language-Team: Hebrew <https://translate.codeberg.org/projects/searxng/"
+"searxng/he/>\n"
 "Language: he\n"
-"Language-Team: Hebrew "
-"<https://translate.codeberg.org/projects/searxng/searxng/he/>\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 "
-"&& n % 10 == 0) ? 2 : 3));\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Weblate 5.12.2\n"
+"Generated-By: Babel 2.17.0\n"
 
 #. CONSTANT_NAMES['NO_SUBGROUPING']
 #: searx/searxng.msg
@@ -76,7 +82,7 @@ msgid "videos"
 msgstr "וידאו"
 
 #. CATEGORY_NAMES['RADIO']
-#: searx/engines/radio_browser.py:103 searx/searxng.msg
+#: searx/engines/radio_browser.py:151 searx/searxng.msg
 msgid "radio"
 msgstr "רדיו"
 
@@ -103,7 +109,7 @@ msgstr "מפות"
 #. CATEGORY_NAMES['ONIONS']
 #: searx/searxng.msg
 msgid "onions"
-msgstr "onion"
+msgstr "שכבות בצל"
 
 #. CATEGORY_NAMES['SCIENCE']
 #: searx/searxng.msg
@@ -173,7 +179,7 @@ msgstr "כהה"
 #. STYLE_NAMES['BLACK']
 #: searx/searxng.msg
 msgid "black"
-msgstr ""
+msgstr "שחור"
 
 #. BRAND_CUSTOM_LINKS['UPTIME']
 #: searx/searxng.msg
@@ -181,116 +187,312 @@ msgid "Uptime"
 msgstr "זמינות"
 
 #. BRAND_CUSTOM_LINKS['ABOUT']
-#: searx/searxng.msg searx/templates/simple/base.html:50
+#: searx/searxng.msg searx/templates/simple/base.html:49
 msgid "About"
 msgstr "אודות"
 
 #. WEATHER_TERMS['AVERAGE TEMP.']
-#: searx/engines/wttr.py:32 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Average temp."
 msgstr "טמפ' ממוצעת"
 
 #. WEATHER_TERMS['CLOUD COVER']
-#: searx/engines/open_meteo.py:91 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Cloud cover"
 msgstr "כיסוי עננים"
 
 #. WEATHER_TERMS['CONDITION']
-#: searx/engines/duckduckgo_weather.py:45 searx/engines/wttr.py:51
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:45 searx/searxng.msg
 msgid "Condition"
 msgstr "תנאים"
 
 #. WEATHER_TERMS['CURRENT CONDITION']
-#: searx/engines/duckduckgo_weather.py:118 searx/engines/wttr.py:104
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:118 searx/searxng.msg
 msgid "Current condition"
 msgstr "תנאים כרגע"
 
 #. WEATHER_TERMS['EVENING']
-#: searx/engines/wttr.py:100 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Evening"
 msgstr "ערב"
 
 #. WEATHER_TERMS['FEELS LIKE']
-#: searx/engines/duckduckgo_weather.py:53 searx/engines/open_meteo.py:81
-#: searx/engines/wttr.py:59 searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:53 searx/searxng.msg
 msgid "Feels like"
 msgstr "מרגיש כמו"
 
 #. WEATHER_TERMS['HUMIDITY']
-#: searx/engines/duckduckgo_weather.py:64 searx/engines/open_meteo.py:93
-#: searx/engines/wttr.py:68 searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:64 searx/searxng.msg
+#: searx/templates/simple/answer/weather.html:29
 msgid "Humidity"
 msgstr "לחות"
 
 #. WEATHER_TERMS['MAX TEMP.']
-#: searx/engines/duckduckgo_weather.py:77 searx/engines/wttr.py:34
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:77 searx/searxng.msg
 msgid "Max temp."
 msgstr "טמפ' מקסימלית"
 
 #. WEATHER_TERMS['MIN TEMP.']
-#: searx/engines/duckduckgo_weather.py:73 searx/engines/wttr.py:33
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:73 searx/searxng.msg
 msgid "Min temp."
 msgstr "טמפ' מינימלית"
 
 #. WEATHER_TERMS['MORNING']
-#: searx/engines/wttr.py:100 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Morning"
 msgstr "בוקר"
 
 #. WEATHER_TERMS['NIGHT']
-#: searx/engines/wttr.py:100 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Night"
 msgstr "לילה"
 
 #. WEATHER_TERMS['NOON']
-#: searx/engines/wttr.py:100 searx/searxng.msg
+#: searx/searxng.msg
 msgid "Noon"
 msgstr "צהריים"
 
 #. WEATHER_TERMS['PRESSURE']
-#: searx/engines/open_meteo.py:95 searx/searxng.msg
+#: searx/searxng.msg searx/templates/simple/answer/weather.html:25
 msgid "Pressure"
 msgstr "לחץ"
 
 #. WEATHER_TERMS['SUNRISE']
-#: searx/engines/duckduckgo_weather.py:81 searx/engines/wttr.py:36
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:81 searx/searxng.msg
 msgid "Sunrise"
 msgstr "זריחה"
 
 #. WEATHER_TERMS['SUNSET']
-#: searx/engines/duckduckgo_weather.py:82 searx/engines/wttr.py:37
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:82 searx/searxng.msg
 msgid "Sunset"
 msgstr "שקיעה"
 
 #. WEATHER_TERMS['TEMPERATURE']
-#: searx/engines/duckduckgo_weather.py:48 searx/engines/open_meteo.py:76
-#: searx/engines/wttr.py:55 searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:48 searx/searxng.msg
+#: searx/templates/simple/answer/weather.html:17
 msgid "Temperature"
 msgstr "טמפרטורה"
 
 #. WEATHER_TERMS['UV INDEX']
-#: searx/engines/duckduckgo_weather.py:80 searx/engines/wttr.py:35
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:80 searx/searxng.msg
 msgid "UV index"
 msgstr "מדד קרינת UV"
 
 #. WEATHER_TERMS['VISIBILITY']
-#: searx/engines/duckduckgo_weather.py:62 searx/engines/wttr.py:66
-#: searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:62 searx/searxng.msg
 msgid "Visibility"
 msgstr "נראות"
 
 #. WEATHER_TERMS['WIND']
-#: searx/engines/duckduckgo_weather.py:58 searx/engines/open_meteo.py:86
-#: searx/engines/wttr.py:62 searx/searxng.msg
+#: searx/engines/duckduckgo_weather.py:58 searx/searxng.msg
+#: searx/templates/simple/answer/weather.html:23
 msgid "Wind"
 msgstr "רוח"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Clear sky"
+msgstr "שמיים בהירים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Partly cloudy"
+msgstr "מעונן חלקית"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Cloudy"
+msgstr "מעונן"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Fair"
+msgstr "סביר"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Fog"
+msgstr "ערפל"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light rain and thunder"
+msgstr "גשם קל ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light rain showers and thunder"
+msgstr "ממטרי גשם קלים ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light rain showers"
+msgstr "ממטרי גשם קלים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light rain"
+msgstr "גשם קל"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Rain and thunder"
+msgstr "גשם ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Rain showers and thunder"
+msgstr "גשם שוטף ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Rain showers"
+msgstr "גשם שוטף"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Rain"
+msgstr "גשם"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy rain and thunder"
+msgstr "גשם כבד ורעם"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy rain showers and thunder"
+msgstr "ממטרי גשם עזים ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy rain showers"
+msgstr "ממטרי גשם עזים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy rain"
+msgstr "גשם כבד"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light sleet and thunder"
+msgstr "שלג קל ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light sleet showers and thunder"
+msgstr "ממטרי שלג קלים ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light sleet showers"
+msgstr "ממטרי שלג קלים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light sleet"
+msgstr "שלג קל"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Sleet and thunder"
+msgstr ""
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Sleet showers and thunder"
+msgstr ""
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Sleet showers"
+msgstr ""
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Sleet"
+msgstr ""
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy sleet and thunder"
+msgstr "שלג עז ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy sleet showers and thunder"
+msgstr "ממטרי שלג ורעמים כבדים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy sleet showers"
+msgstr "ממטרי שלג עזים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy sleet"
+msgstr "שלג עז"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light snow and thunder"
+msgstr "שלג קל ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light snow showers and thunder"
+msgstr "ממטרי שלג קלים ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light snow showers"
+msgstr ""
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Light snow"
+msgstr ""
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Snow and thunder"
+msgstr ""
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Snow showers and thunder"
+msgstr ""
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Snow showers"
+msgstr ""
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Snow"
+msgstr "שלג"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy snow and thunder"
+msgstr "שלג כבד ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy snow showers and thunder"
+msgstr "ממטרי שלג כבדים ורעמים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy snow showers"
+msgstr "ממטרי שלג כבדים"
+
+#. WEATHER_CONDITIONS
+#: searx/searxng.msg
+msgid "Heavy snow"
+msgstr "שלג כבד"
 
 #. SOCIAL_MEDIA_TERMS['SUBSCRIBERS']
 #: searx/engines/lemmy.py:85 searx/searxng.msg
@@ -308,7 +510,7 @@ msgid "active users"
 msgstr "משתמשים פעילים"
 
 #. SOCIAL_MEDIA_TERMS['COMMENTS']
-#: searx/engines/discourse.py:157 searx/engines/hackernews.py:78
+#: searx/engines/discourse.py:157 searx/engines/hackernews.py:82
 #: searx/engines/lemmy.py:130 searx/searxng.msg
 msgid "comments"
 msgstr "הערות"
@@ -324,7 +526,7 @@ msgid "community"
 msgstr "קהילה"
 
 #. SOCIAL_MEDIA_TERMS['POINTS']
-#: searx/engines/hackernews.py:78 searx/searxng.msg
+#: searx/engines/hackernews.py:82 searx/searxng.msg
 msgid "points"
 msgstr "נקודות"
 
@@ -334,7 +536,7 @@ msgid "title"
 msgstr "כותרת"
 
 #. SOCIAL_MEDIA_TERMS['AUTHOR']
-#: searx/engines/hackernews.py:81 searx/searxng.msg
+#: searx/engines/hackernews.py:85 searx/searxng.msg
 msgid "author"
 msgstr "מחבר"
 
@@ -353,120 +555,112 @@ msgstr "סגור"
 msgid "answered"
 msgstr "נענו"
 
-#: searx/webapp.py:332
+#: searx/webapp.py:292
 msgid "No item found"
 msgstr "לא נמצא פריט"
 
-#: searx/engines/qwant.py:288
-#: searx/templates/simple/result_templates/images.html:23 searx/webapp.py:334
+#: searx/engines/qwant.py:291
+#: searx/templates/simple/result_templates/images.html:23 searx/webapp.py:294
 msgid "Source"
 msgstr "מקור"
 
-#: searx/webapp.py:336
+#: searx/webapp.py:296
 msgid "Error loading the next page"
 msgstr "שגיאה בטעינת העמוד הבא"
 
-#: searx/webapp.py:495 searx/webapp.py:898
+#: searx/webapp.py:447 searx/webapp.py:845
 msgid "Invalid settings, please edit your preferences"
 msgstr "הגדרות לא תקינות, עליך לתקן את ההעדפות שלך"
 
-#: searx/webapp.py:511
+#: searx/webapp.py:463
 msgid "Invalid settings"
 msgstr "הגדרות לא תקינות"
 
-#: searx/webapp.py:588 searx/webapp.py:670
+#: searx/webapp.py:540 searx/webapp.py:630
 msgid "search error"
 msgstr "שגיאת חיפוש"
 
-#: searx/webutils.py:36
+#: searx/webutils.py:35
 msgid "timeout"
 msgstr "פקיעת זמן"
 
-#: searx/webutils.py:37
+#: searx/webutils.py:36
 msgid "parsing error"
 msgstr "שגיאת ניתוח"
 
-#: searx/webutils.py:38
+#: searx/webutils.py:37
 msgid "HTTP protocol error"
 msgstr "שגיאת פרוטוקול HTTP"
 
-#: searx/webutils.py:39
+#: searx/webutils.py:38
 msgid "network error"
 msgstr "שגיאת רשת תקשורת"
 
-#: searx/webutils.py:40
+#: searx/webutils.py:39
 msgid "SSL error: certificate validation has failed"
 msgstr "שגיאת SSL: אימות התעודה נכשל"
 
-#: searx/webutils.py:42
+#: searx/webutils.py:41
 msgid "unexpected crash"
 msgstr "קריסה לא צפויה"
 
-#: searx/webutils.py:49
+#: searx/webutils.py:48
 msgid "HTTP error"
 msgstr "שגיאת HTTP"
 
-#: searx/webutils.py:50
+#: searx/webutils.py:49
 msgid "HTTP connection error"
 msgstr "שגיאת חיבור HTTP"
 
-#: searx/webutils.py:56
+#: searx/webutils.py:55
 msgid "proxy error"
 msgstr "שגיאת פרוקסי"
 
-#: searx/webutils.py:57
+#: searx/webutils.py:56
 msgid "CAPTCHA"
 msgstr "CAPTCHA"
 
-#: searx/webutils.py:58
+#: searx/webutils.py:57
 msgid "too many requests"
 msgstr "יותר מדי בקשות"
 
-#: searx/webutils.py:59
+#: searx/webutils.py:58
 msgid "access denied"
 msgstr "הגישה נדחתה"
 
-#: searx/webutils.py:60
+#: searx/webutils.py:59
 msgid "server API error"
 msgstr "שגיאת API שרת"
 
-#: searx/webutils.py:79
+#: searx/webutils.py:78
 msgid "Suspended"
 msgstr "מושהה"
 
-#: searx/webutils.py:314
+#: searx/webutils.py:313
+#, python-brace-format
 msgid "{minutes} minute(s) ago"
 msgstr "לפני {minutes} דקות"
 
-#: searx/webutils.py:315
+#: searx/webutils.py:314
+#, python-brace-format
 msgid "{hours} hour(s), {minutes} minute(s) ago"
 msgstr "לפני {hours} שעות, {minutes} דקות"
 
-#: searx/answerers/random/answerer.py:76
-msgid "Random value generator"
-msgstr "מפיק ערך אקראי"
-
-#: searx/answerers/random/answerer.py:77
+#: searx/answerers/random.py:69
 msgid "Generate different random values"
 msgstr "מייצרת ערכים אקראיים שונים"
 
-#: searx/answerers/statistics/answerer.py:50
-msgid "Statistics functions"
-msgstr "פונקציות סטטיסטיקה"
+#: searx/answerers/statistics.py:36
+#, python-brace-format
+msgid "Compute {func} of the arguments"
+msgstr "חשב {func} של הארגומנטים"
 
-#: searx/answerers/statistics/answerer.py:51
-msgid "Compute {functions} of the arguments"
-msgstr "מחשבת {functions} של הארגומנטים"
-
-#: searx/engines/mozhi.py:57
-msgid "Synonyms"
-msgstr ""
-
-#: searx/engines/openstreetmap.py:159
-msgid "Get directions"
-msgstr "קבל כיוונים"
+#: searx/engines/openstreetmap.py:158
+msgid "Show route in map .."
+msgstr "הצג מסלול במפה .."
 
 #: searx/engines/pdbe.py:96
+#, python-brace-format
 msgid "{title} (OBSOLETE)"
 msgstr "{title} (OBSOLETE)"
 
@@ -474,19 +668,19 @@ msgstr "{title} (OBSOLETE)"
 msgid "This entry has been superseded by"
 msgstr "רשומה זו הוחלפה על ידי"
 
-#: searx/engines/qwant.py:290
+#: searx/engines/qwant.py:293
 msgid "Channel"
 msgstr "ערוץ"
 
-#: searx/engines/radio_browser.py:105
+#: searx/engines/radio_browser.py:153
 msgid "bitrate"
 msgstr "קצב נתונים"
 
-#: searx/engines/radio_browser.py:106
+#: searx/engines/radio_browser.py:154
 msgid "votes"
 msgstr "הצבעות"
 
-#: searx/engines/radio_browser.py:107
+#: searx/engines/radio_browser.py:155
 msgid "clicks"
 msgstr "לחיצות"
 
@@ -495,7 +689,8 @@ msgstr "לחיצות"
 msgid "Language"
 msgstr "שפה"
 
-#: searx/engines/semantic_scholar.py:78
+#: searx/engines/semantic_scholar.py:101
+#, python-brace-format
 msgid ""
 "{numCitations} citations from the year {firstCitationVelocityYear} to "
 "{lastCitationVelocityYear}"
@@ -503,7 +698,7 @@ msgstr ""
 "{numCitations} אזכורים מ {firstCitationVelocityYear} עד "
 "{lastCitationVelocityYear}"
 
-#: searx/engines/tineye.py:45
+#: searx/engines/tineye.py:48
 msgid ""
 "Could not read that image url. This may be due to an unsupported file "
 "format. TinEye only supports images that are JPEG, PNG, GIF, BMP, TIFF or"
@@ -513,7 +708,7 @@ msgstr ""
 "קובץ שאינו נתמך. TinEye תומך רק בתמונות שהן JPEG, PNG, GIF, BMP, TIFF או "
 "WebP."
 
-#: searx/engines/tineye.py:51
+#: searx/engines/tineye.py:54
 msgid ""
 "The image is too simple to find matches. TinEye requires a basic level of"
 " visual detail to successfully identify matches."
@@ -521,7 +716,7 @@ msgstr ""
 "התמונה הזו הינה יותר מידי פשוטה מכדי למצוא התאמות. TinEye צריך רמה בסיסית"
 " של פרטים חזותיים כדי להצליח למצוא התאמות."
 
-#: searx/engines/tineye.py:57
+#: searx/engines/tineye.py:59
 msgid "The image could not be downloaded."
 msgstr "אי אפשר להוריד את תמונה זו."
 
@@ -533,31 +728,49 @@ msgstr "דירוג ספרים"
 msgid "File quality"
 msgstr "איכות קובץ"
 
-#: searx/plugins/calculator.py:14
+#: searx/plugins/ahmia_filter.py:32
+msgid "Ahmia blacklist"
+msgstr "הרשימה השחורה של Ahmia"
+
+#: searx/plugins/ahmia_filter.py:33
+msgid "Filter out onion results that appear in Ahmia's blacklist."
+msgstr "מסנן תוצאות onion שמופיעות ברשימת השחורה של Ahmia."
+
+#: searx/plugins/calculator.py:38
+msgid "Basic Calculator"
+msgstr "מחשבון בסיסי"
+
+#: searx/plugins/calculator.py:39
 msgid "Calculate mathematical expressions via the search bar"
 msgstr "חשב ביטויים מתמטיים באמצעות שורת החיפוש"
 
-#: searx/plugins/hash_plugin.py:10
-msgid "Converts strings to different hash digests."
-msgstr "ממיר מחרוזות לתוך hash digests (לקט גיבוב) שונים."
+#: searx/plugins/hash_plugin.py:34
+msgid "Hash plugin"
+msgstr "תוסף גיבוב"
 
-#: searx/plugins/hash_plugin.py:38
+#: searx/plugins/hash_plugin.py:36
+msgid ""
+"Converts strings to different hash digests. Available functions: md5, "
+"sha1, sha224, sha256, sha384, sha512."
+msgstr ""
+
+#: searx/plugins/hash_plugin.py:64
 msgid "hash digest"
-msgstr "hash digest"
+msgstr "דגימת האש"
 
-#: searx/plugins/hostnames.py:103
+#: searx/plugins/hostnames.py:123
 msgid "Hostnames plugin"
 msgstr "תוסף כתובות"
 
-#: searx/plugins/hostnames.py:104
-msgid "Rewrite hostnames, remove results or prioritize them based on the hostname"
-msgstr "שכתוב כתובות, מחיקת תוצאות או תעדוף לפי הכתובת"
+#: searx/plugins/hostnames.py:124
+msgid "Rewrite hostnames and remove or prioritize results based on the hostname"
+msgstr ""
 
-#: searx/plugins/oa_doi_rewrite.py:12
+#: searx/plugins/oa_doi_rewrite.py:55
 msgid "Open Access DOI rewrite"
 msgstr "שכתוב Open Access DOI"
 
-#: searx/plugins/oa_doi_rewrite.py:13
+#: searx/plugins/oa_doi_rewrite.py:56
 msgid ""
 "Avoid paywalls by redirecting to open-access versions of publications "
 "when available"
@@ -565,31 +778,31 @@ msgstr ""
 "הימנע מגרסאות paywall על ידי הכוונה מחודשת לגרסאות כניסה-חופשית של "
 "כתבי-עת כאשר ישנן"
 
-#: searx/plugins/self_info.py:9
+#: searx/plugins/self_info.py:37
 msgid "Self Information"
 msgstr "מידע עצמי"
 
-#: searx/plugins/self_info.py:10
+#: searx/plugins/self_info.py:39
 msgid ""
 "Displays your IP if the query is \"ip\" and your user agent if the query "
-"contains \"user agent\"."
+"is \"user-agent\"."
 msgstr ""
-"מציגה כתובת IP המשוייכת לך אם השאילתא היא \"ip\" וגם סוכן משתמש אם "
-"השאילתא מכילה \"user agent\"."
+"מציג את ה-IP שלך אם השאילתא היא \"ip\" ואת סוכן המשתמש שלך אם השאילתא היא"
+" \"user-agent\"."
 
-#: searx/plugins/self_info.py:28
+#: searx/plugins/self_info.py:52
 msgid "Your IP is: "
 msgstr "ה-IP שלך הוא: "
 
-#: searx/plugins/self_info.py:31
+#: searx/plugins/self_info.py:55
 msgid "Your user-agent is: "
 msgstr "סוכן המשתמש שלך הוא: "
 
-#: searx/plugins/tor_check.py:24
+#: searx/plugins/tor_check.py:42
 msgid "Tor check plugin"
 msgstr "טור בודק תוסף"
 
-#: searx/plugins/tor_check.py:27
+#: searx/plugins/tor_check.py:44
 msgid ""
 "This plugin checks if the address of the request is a Tor exit-node, and "
 "informs the user if it is; like check.torproject.org, but from SearXNG."
@@ -597,35 +810,38 @@ msgstr ""
 "תוסף זה בודק אם הכתובת של הבקשה היא צומת יציאה של TOR, ומודיע למשתמש אם "
 "כן, כמו check.torproject.org אבל מ-SearXNG."
 
-#: searx/plugins/tor_check.py:61
-msgid ""
-"Could not download the list of Tor exit-nodes from: "
-"https://check.torproject.org/exit-addresses"
-msgstr ""
-"לא ניתן להוריד את רשימת צמתי היציאה של טור מ: "
-"https://check.torproject.org/exit-addresses"
+#: searx/plugins/tor_check.py:65
+msgid "Could not download the list of Tor exit-nodes from"
+msgstr "לא ניתן להוריד את רשימת נקודות היציאה של Tor מ-"
 
-#: searx/plugins/tor_check.py:77
-msgid ""
-"You are using Tor and it looks like you have this external IP address: "
-"{ip_address}"
-msgstr "אתה משתמש בטור וזה נראה שיש לך את הIP הזה: {ip_address}"
+#: searx/plugins/tor_check.py:72
+msgid "You are using Tor and it looks like you have the external IP address"
+msgstr "הינך משתמש ב-Tor ונראה שברשותך כתובת ה-IP החיצונית"
 
-#: searx/plugins/tor_check.py:85
-msgid "You are not using Tor and you have this external IP address: {ip_address}"
-msgstr "אינך משתמש/ת ב Tor וזוהי כתובתך: {ip_address}"
+#: searx/plugins/tor_check.py:76
+msgid "You are not using Tor and you have the external IP address"
+msgstr "אינך משתמש ב-Tor וברשותך כתובת ה-IP החיצונית"
 
-#: searx/plugins/tracker_url_remover.py:16
+#: searx/plugins/tracker_url_remover.py:35
 msgid "Tracker URL remover"
 msgstr "הסרת Tracker URL"
 
-#: searx/plugins/tracker_url_remover.py:17
+#: searx/plugins/tracker_url_remover.py:36
 msgid "Remove trackers arguments from the returned URL"
 msgstr "הסר ארגומנטי איתור מתוך URL מוחזר"
 
-#: searx/plugins/unit_converter.py:29
+#: searx/plugins/unit_converter.py:49
+msgid "Unit converter plugin"
+msgstr "תוסף המרה של יחידות"
+
+#: searx/plugins/unit_converter.py:50
 msgid "Convert between units"
 msgstr "המר בין יחידות"
+
+#: searx/result_types/answer.py:224
+#, python-brace-format
+msgid "{location}: {temperature}, {condition}"
+msgstr "{location}: {temperature}, {condition}"
 
 #: searx/templates/simple/404.html:4
 msgid "Page not found"
@@ -640,49 +856,49 @@ msgstr "המשך לעמוד %(search_page)s."
 msgid "search page"
 msgstr "עמוד חיפוש"
 
-#: searx/templates/simple/base.html:54
+#: searx/templates/simple/base.html:53
 msgid "Donate"
 msgstr "תרומות"
 
-#: searx/templates/simple/base.html:58
+#: searx/templates/simple/base.html:57
 #: searx/templates/simple/preferences.html:156
 msgid "Preferences"
 msgstr "העדפות"
 
-#: searx/templates/simple/base.html:68
+#: searx/templates/simple/base.html:67
 msgid "Powered by"
 msgstr "מופעל באמצעות"
 
-#: searx/templates/simple/base.html:68
+#: searx/templates/simple/base.html:67
 msgid "a privacy-respecting, open metasearch engine"
 msgstr "מנוע מטא-חיפוש בקוד חופשי המכבד את פרטיותך"
 
-#: searx/templates/simple/base.html:69
+#: searx/templates/simple/base.html:68
 #: searx/templates/simple/result_templates/packages.html:59
 msgid "Source code"
 msgstr "קוד מקור"
 
-#: searx/templates/simple/base.html:70
+#: searx/templates/simple/base.html:69
 msgid "Issue tracker"
 msgstr "דווח על בעיה"
 
-#: searx/templates/simple/base.html:71 searx/templates/simple/stats.html:18
+#: searx/templates/simple/base.html:70 searx/templates/simple/stats.html:18
 msgid "Engine stats"
 msgstr "סטטיסטיקת מנוע חיפוש"
 
-#: searx/templates/simple/base.html:73
+#: searx/templates/simple/base.html:72
 msgid "Public instances"
 msgstr "שרתים מקבילים"
 
-#: searx/templates/simple/base.html:76
+#: searx/templates/simple/base.html:75
 msgid "Privacy policy"
 msgstr "פוליסת פרטיות"
 
-#: searx/templates/simple/base.html:79
+#: searx/templates/simple/base.html:78
 msgid "Contact instance maintainer"
 msgstr "צור קשר עם מפעיל השירת"
 
-#: searx/templates/simple/categories.html:26
+#: searx/templates/simple/categories.html:30
 msgid "Click on the magnifier to perform search"
 msgstr "לחץ על זכוכית המגדלת כדי לחפש"
 
@@ -705,12 +921,8 @@ msgstr "מחבר"
 msgid "cached"
 msgstr "מוטמן"
 
-#: searx/templates/simple/macros.html:50
-msgid "proxied"
-msgstr "פרוקסי"
-
 #: searx/templates/simple/new_issue.html:64
-msgid "Start submiting a new issue on GitHub"
+msgid "Start submitting a new issue on GitHub"
 msgstr "התחל להגיש גיליון חדש ב- GitHub"
 
 #: searx/templates/simple/new_issue.html:66
@@ -770,63 +982,55 @@ msgstr "מבחני בודק שכשלו: "
 msgid "Errors:"
 msgstr "שגיאות:"
 
-#: searx/templates/simple/preferences.html:162
+#: searx/templates/simple/preferences.html:163
 msgid "General"
 msgstr "כללי"
 
-#: searx/templates/simple/preferences.html:165
+#: searx/templates/simple/preferences.html:166
 msgid "Default categories"
 msgstr "קטגוריות עיקריות"
 
-#: searx/templates/simple/preferences.html:190
+#: searx/templates/simple/preferences.html:194
 msgid "User interface"
 msgstr "ממשק משתמש"
 
-#: searx/templates/simple/preferences.html:211
+#: searx/templates/simple/preferences.html:217
 msgid "Privacy"
 msgstr "פרטיות"
 
-#: searx/templates/simple/preferences.html:224
+#: searx/templates/simple/preferences.html:232
 msgid "Engines"
 msgstr "מנועים"
 
-#: searx/templates/simple/preferences.html:226
+#: searx/templates/simple/preferences.html:234
 msgid "Currently used search engines"
 msgstr "מנועי חיפוש שמופעלים כעת"
 
-#: searx/templates/simple/preferences.html:234
+#: searx/templates/simple/preferences.html:243
 msgid "Special Queries"
 msgstr "שאילתות מיוחדות"
 
-#: searx/templates/simple/preferences.html:240
+#: searx/templates/simple/preferences.html:251
 msgid "Cookies"
 msgstr "עוגיות"
 
-#: searx/templates/simple/results.html:23
-msgid "Answers"
-msgstr "תשובות"
-
-#: searx/templates/simple/results.html:42
+#: searx/templates/simple/results.html:30
 msgid "Number of results"
 msgstr "מספר תוצאות"
 
-#: searx/templates/simple/results.html:48
+#: searx/templates/simple/results.html:36
 msgid "Info"
 msgstr "מידע"
 
-#: searx/templates/simple/results.html:75
-msgid "Try searching for:"
-msgstr "נסה לחפש:"
-
-#: searx/templates/simple/results.html:107
+#: searx/templates/simple/results.html:77
 msgid "Back to top"
 msgstr "בחזרה למעלה"
 
-#: searx/templates/simple/results.html:125
+#: searx/templates/simple/results.html:95
 msgid "Previous page"
 msgstr "עמוד קודם"
 
-#: searx/templates/simple/results.html:143
+#: searx/templates/simple/results.html:113
 msgid "Next page"
 msgstr "עמוד הבא"
 
@@ -938,9 +1142,34 @@ msgstr "מבחן נכשל"
 msgid "Comment(s)"
 msgstr "הערות"
 
+#: searx/templates/simple/answer/translations.html:12
+#: searx/templates/simple/preferences/answerers.html:8
+msgid "Examples"
+msgstr "דוגמאות"
+
+#: searx/templates/simple/answer/translations.html:21
+msgid "Definitions"
+msgstr "הגדרות"
+
+#: searx/templates/simple/answer/translations.html:30
+msgid "Synonyms"
+msgstr "מילים נפרדות"
+
+#: searx/templates/simple/answer/weather.html:19
+msgid "Feels Like"
+msgstr "מרגיש כמו"
+
+#: searx/templates/simple/elements/answers.html:2
+msgid "Answers"
+msgstr "תשובות"
+
 #: searx/templates/simple/elements/apis.html:3
 msgid "Download results"
 msgstr "הורד תוצאות"
+
+#: searx/templates/simple/elements/corrections.html:2
+msgid "Try searching for:"
+msgstr "נסה לחפש:"
 
 #: searx/templates/simple/elements/engines_msg.html:4
 msgid "Messages from the search engines"
@@ -948,7 +1177,7 @@ msgstr "הודעות ממנועי החיפוש"
 
 #: searx/templates/simple/elements/engines_msg.html:7
 msgid "seconds"
-msgstr ""
+msgstr "שניות"
 
 #: searx/templates/simple/elements/search_url.html:3
 msgid "Search URL"
@@ -1054,7 +1283,7 @@ msgstr "אין תוצאות נוספות. שווה לנסות את הדבר הב
 
 #: searx/templates/simple/messages/no_results.html:19
 msgid "Refresh the page."
-msgstr "טעינת הדף מחדש"
+msgstr "טעינת הדף מחדש."
 
 #: searx/templates/simple/messages/no_results.html:20
 msgid "Search for another query or select another category (above)."
@@ -1082,8 +1311,8 @@ msgid "Allow"
 msgstr "הפעל"
 
 #: searx/templates/simple/preferences/answerers.html:5
-msgid "Keywords"
-msgstr "מילות מפתח"
+msgid "Keywords (first word in query)"
+msgstr "מילות מפתח (מילה ראשונה בשאילתה)"
 
 #: searx/templates/simple/preferences/answerers.html:6
 #: searx/templates/simple/result_templates/packages.html:7
@@ -1093,10 +1322,6 @@ msgstr "שם"
 #: searx/templates/simple/preferences/answerers.html:7
 msgid "Description"
 msgstr "תיאור"
-
-#: searx/templates/simple/preferences/answerers.html:8
-msgid "Examples"
-msgstr "דוגמאות"
 
 #: searx/templates/simple/preferences/answerers.html:13
 msgid "This is the list of SearXNG's instant answering modules."
@@ -1111,16 +1336,16 @@ msgid "Autocomplete"
 msgstr "השלמה אוטומטית"
 
 #: searx/templates/simple/preferences/autocomplete.html:15
-msgid "Find stuff as you type"
-msgstr "מצא טקסט תוך כדי הקלדה"
+msgid "Show possible queries as you type"
+msgstr ""
 
 #: searx/templates/simple/preferences/center_alignment.html:2
 msgid "Center Alignment"
 msgstr "יישור מרכז"
 
 #: searx/templates/simple/preferences/center_alignment.html:14
-msgid "Displays results in the center of the page (Oscar layout)."
-msgstr "מציג תוצאות במרכז העמוד (פריסת אוסקר)."
+msgid "Display results in the center of the page (Oscar layout)."
+msgstr ""
 
 #: searx/templates/simple/preferences/cookies.html:2
 msgid ""
@@ -1129,8 +1354,8 @@ msgid ""
 msgstr "זוהי רשימת העוגיות וערכיהן אשר SearXNG מאחסן על המחשב שלך."
 
 #: searx/templates/simple/preferences/cookies.html:3
-msgid "With that list, you can assess SearXNG transparency."
-msgstr "בעזרת רשימה זאת, באפשרותך לגשת אל SearXNG transparency."
+msgid "With this list, you can assess the transparency of SearXNG."
+msgstr ""
 
 #: searx/templates/simple/preferences/cookies.html:9
 msgid "Cookie name"
@@ -1158,11 +1383,11 @@ msgstr "כתובת אתר לשחזור ההעדפות שלך בדפדפן אחר
 
 #: searx/templates/simple/preferences/cookies.html:43
 msgid ""
-"Specifying custom settings in the preferences URL can be used to sync "
-"preferences across devices."
+"A URL containing your preferences. This URL can be used to restore your "
+"settings on a different device."
 msgstr ""
-"ניתן להשתמש בציון הגדרות מותאמות אישית בכתובת ההעדפות כדי לסנכרן העדפות "
-"בין מכשירים."
+"כתובת URL המכילה את ההעדפות שלך. ניתן להשתמש בכתובת URL זו כדי לשחזר את "
+"ההגדרות שלך במכשיר אחר."
 
 #: searx/templates/simple/preferences/cookies.html:46
 msgid "Copy preferences hash"
@@ -1176,21 +1401,23 @@ msgstr "הכנס hash העדפות מועתק (ללא URL) על מנת לשחז�
 msgid "Preferences hash"
 msgstr "Hash העדפות"
 
-#: searx/templates/simple/preferences/doi_resolver.html:2
+#: searx/templates/simple/preferences/doi_resolver.html:1
+msgid "Digital Object Identifier (DOI)"
+msgstr "מזהה אוביקט דיגיטלי (DOI)"
+
+#: searx/templates/simple/preferences/doi_resolver.html:6
 msgid "Open Access DOI resolver"
 msgstr "מפענח Open Access DOI"
 
-#: searx/templates/simple/preferences/doi_resolver.html:14
+#: searx/templates/simple/preferences/doi_resolver.html:18
 msgid "Select service used by DOI rewrite"
 msgstr "בחר שירות המשתמש בשכתוב DOI"
 
 #: searx/templates/simple/preferences/engines.html:9
 msgid ""
-"This tab does not exists in the user interface, but you can search in "
-"these engines by its !bangs."
+"This tab does not exist in the user interface, but you can search with "
+"these engines via !bangs."
 msgstr ""
-"כרטיסייה זו לא קיימת בממשק המשתמש, אבל תוכל לחפש במנועי החיפוש הבאים "
-"באמצעות !bangs"
 
 #: searx/templates/simple/preferences/engines.html:15
 msgid "Enable all"
@@ -1218,25 +1445,21 @@ msgstr "זמן מירבי"
 
 #: searx/templates/simple/preferences/favicon.html:2
 msgid "Favicon Resolver"
-msgstr ""
+msgstr "מפענח Favicon"
 
 #: searx/templates/simple/preferences/favicon.html:15
 msgid "Display favicons near search results"
-msgstr ""
+msgstr "הצג Favicons קרוב לתוצאות החיפוש"
 
 #: searx/templates/simple/preferences/footer.html:2
 msgid ""
-"These settings are stored in your cookies, this allows us not to store "
+"These settings are stored in your cookies. This allows us not to store "
 "this data about you."
 msgstr ""
-"הגדרות אלו מאוחסנות בתוך העוגיות שלך, אלו מאפשרות לנו להימנע מלאחסן את "
-"מידע זה אודותיך."
 
 #: searx/templates/simple/preferences/footer.html:3
-msgid ""
-"These cookies serve your sole convenience, we don't use these cookies to "
-"track you."
-msgstr "עוגיות אלו משרתות את נוחותך הבלעדית, אנחנו לא משתמשים בהן כדי לעקוב אחריך."
+msgid "These cookies serve your sole convenience; we don't use them to track you."
+msgstr ""
 
 #: searx/templates/simple/preferences/footer.html:6
 msgid "Save"
@@ -1271,16 +1494,18 @@ msgid "Image proxy"
 msgstr "פרוקסי תמונה"
 
 #: searx/templates/simple/preferences/image_proxy.html:14
-msgid "Proxying image results through SearXNG"
-msgstr "העבר תוצאות תמונה דרך פרוקסי מבעד SearXNG"
+msgid "Proxy image results through SearXNG"
+msgstr ""
 
 #: searx/templates/simple/preferences/infinite_scroll.html:2
 msgid "Infinite scroll"
 msgstr "גלילה אינסופית"
 
 #: searx/templates/simple/preferences/infinite_scroll.html:14
-msgid "Automatically load next page when scrolling to bottom of current page"
-msgstr "טען אוטומטית של העמוד הבא בעת גלילה לתחתית העמוד"
+msgid ""
+"Automatically load the next page when scrolling to the bottom of the "
+"current page"
+msgstr ""
 
 #: searx/templates/simple/preferences/language.html:24
 msgid "What language do you prefer for search?"
@@ -1311,12 +1536,12 @@ msgstr ""
 " יכול לתעד את כותרת זאת"
 
 #: searx/templates/simple/preferences/results_on_new_tab.html:2
-msgid "Results on new tabs"
-msgstr "תוצאות בכרטיסיות חדשות"
+msgid "Results in new tabs"
+msgstr ""
 
 #: searx/templates/simple/preferences/results_on_new_tab.html:14
-msgid "Open result links on new browser tabs"
-msgstr "פתח קישורי תוצאה בתוך כרטיסיות דפדפן חדשות"
+msgid "Open result links in new browser tabs"
+msgstr ""
 
 #: searx/templates/simple/preferences/safesearch.html:20
 msgid "Filter content"
@@ -1328,17 +1553,17 @@ msgstr "חפש בעת בחירת קטגוריה"
 
 #: searx/templates/simple/preferences/search_on_category_select.html:14
 msgid ""
-"Perform search immediately if a category selected. Disable to select "
-"multiple categories"
-msgstr "בצע חיפוש מיידי אם נבחרה קטגוריה. בטל על מנת לבחור מספר קטגוריות"
+"Perform a search immediately if a category is selected. Disable to select"
+" multiple categories"
+msgstr ""
 
 #: searx/templates/simple/preferences/theme.html:2
 msgid "Theme"
 msgstr "מוטיב"
 
 #: searx/templates/simple/preferences/theme.html:14
-msgid "Change SearXNG layout"
-msgstr "שנה את מערך SearXNG"
+msgid "Change the layout of SearXNG"
+msgstr ""
 
 #: searx/templates/simple/preferences/theme.html:19
 msgid "Theme style"
@@ -1364,6 +1589,26 @@ msgstr "שפת ממשק"
 msgid "Change the language of the layout"
 msgstr "שנה את שפת הממשק"
 
+#: searx/templates/simple/preferences/urlformatting.html:2
+msgid "URL formatting"
+msgstr "עיצוב כתובת אתר"
+
+#: searx/templates/simple/preferences/urlformatting.html:8
+msgid "Pretty"
+msgstr "יפה"
+
+#: searx/templates/simple/preferences/urlformatting.html:13
+msgid "Full"
+msgstr "מלא"
+
+#: searx/templates/simple/preferences/urlformatting.html:18
+msgid "Host"
+msgstr "מארח"
+
+#: searx/templates/simple/preferences/urlformatting.html:23
+msgid "Change result URL formatting"
+msgstr "שנה עיצוב כתובת תוצאות"
+
 #: searx/templates/simple/result_templates/code.html:13
 msgid "repo"
 msgstr "מאגרים"
@@ -1386,7 +1631,7 @@ msgstr "אתר זה לא סיפק תיאור."
 
 #: searx/templates/simple/result_templates/files.html:38
 #: searx/templates/simple/result_templates/images.html:22
-#: searx/templates/simple/result_templates/torrent.html:11
+#: searx/templates/simple/result_templates/torrent.html:18
 msgid "Filesize"
 msgstr "גודל קובץ"
 
@@ -1496,23 +1741,23 @@ msgstr "PDF"
 msgid "HTML"
 msgstr "HTML"
 
-#: searx/templates/simple/result_templates/torrent.html:6
+#: searx/templates/simple/result_templates/torrent.html:7
 msgid "magnet link"
 msgstr "קישור magnet"
 
-#: searx/templates/simple/result_templates/torrent.html:7
+#: searx/templates/simple/result_templates/torrent.html:8
 msgid "torrent file"
 msgstr "קובץ torrent"
 
-#: searx/templates/simple/result_templates/torrent.html:9
+#: searx/templates/simple/result_templates/torrent.html:13
 msgid "Seeder"
 msgstr "זורעים"
 
-#: searx/templates/simple/result_templates/torrent.html:9
+#: searx/templates/simple/result_templates/torrent.html:14
 msgid "Leecher"
 msgstr "יונקים"
 
-#: searx/templates/simple/result_templates/torrent.html:13
+#: searx/templates/simple/result_templates/torrent.html:19
 msgid "Number of Files"
 msgstr "מספר קבצים"
 
@@ -1765,7 +2010,7 @@ msgstr "הסתר וידאו"
 #~ msgstr ""
 
 #~ msgid "Displays results in the center of the page (Oscar layout)."
-#~ msgstr ""
+#~ msgstr "מציג תוצאות במרכז העמוד (פריסת אוסקר)."
 
 #~ msgid "preferences"
 #~ msgstr "העדפות"
@@ -1955,3 +2200,130 @@ msgstr "הסתר וידאו"
 #~ msgid "Engines cannot retrieve results"
 #~ msgstr "מנועים לא מסוגלים לאחזר תוצאות"
 
+#~ msgid "Start submiting a new issue on GitHub"
+#~ msgstr "התחל להגיש גיליון חדש ב- GitHub"
+
+#~ msgid "dummy"
+#~ msgstr ""
+
+#~ msgid "Random value generator"
+#~ msgstr "מפיק ערך אקראי"
+
+#~ msgid "Statistics functions"
+#~ msgstr "פונקציות סטטיסטיקה"
+
+#~ msgid "Compute {functions} of the arguments"
+#~ msgstr "מחשבת {functions} של הארגומנטים"
+
+#~ msgid "Get directions"
+#~ msgstr "קבל כיוונים"
+
+#~ msgid ""
+#~ "Displays your IP if the query is"
+#~ " \"ip\" and your user agent if "
+#~ "the query contains \"user agent\"."
+#~ msgstr ""
+#~ "מציגה כתובת IP המשוייכת לך אם "
+#~ "השאילתא היא \"ip\" וגם סוכן משתמש "
+#~ "אם השאילתא מכילה \"user agent\"."
+
+#~ msgid ""
+#~ "Could not download the list of Tor"
+#~ " exit-nodes from: https://check.torproject.org"
+#~ "/exit-addresses"
+#~ msgstr ""
+#~ "לא ניתן להוריד את רשימת צמתי "
+#~ "היציאה של טור מ: https://check.torproject.org"
+#~ "/exit-addresses"
+
+#~ msgid ""
+#~ "You are using Tor and it looks "
+#~ "like you have this external IP "
+#~ "address: {ip_address}"
+#~ msgstr "אתה משתמש בטור וזה נראה שיש לך את הIP הזה: {ip_address}"
+
+#~ msgid ""
+#~ "You are not using Tor and you "
+#~ "have this external IP address: "
+#~ "{ip_address}"
+#~ msgstr "אינך משתמש/ת ב Tor וזוהי כתובתך: {ip_address}"
+
+#~ msgid "Keywords"
+#~ msgstr "מילות מפתח"
+
+#~ msgid "/"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Specifying custom settings in the "
+#~ "preferences URL can be used to "
+#~ "sync preferences across devices."
+#~ msgstr ""
+#~ "ניתן להשתמש בציון הגדרות מותאמות אישית"
+#~ " בכתובת ההעדפות כדי לסנכרן העדפות בין"
+#~ " מכשירים."
+
+#~ msgid "proxied"
+#~ msgstr "פרוקסי"
+
+#~ msgid ""
+#~ "This tab does not exists in the"
+#~ " user interface, but you can search"
+#~ " in these engines by its !bangs."
+#~ msgstr ""
+#~ "כרטיסייה זו לא קיימת בממשק המשתמש, "
+#~ "אבל תוכל לחפש במנועי החיפוש הבאים "
+#~ "באמצעות !bangs"
+
+#~ msgid "Results on new tabs"
+#~ msgstr "תוצאות בכרטיסיות חדשות"
+
+#~ msgid "Open result links on new browser tabs"
+#~ msgstr "פתח קישורי תוצאה בתוך כרטיסיות דפדפן חדשות"
+
+#~ msgid "Find stuff as you type"
+#~ msgstr "מצא טקסט תוך כדי הקלדה"
+
+#~ msgid "Converts strings to different hash digests."
+#~ msgstr "ממיר מחרוזות לתוך hash digests (לקט גיבוב) שונים."
+
+#~ msgid ""
+#~ "Rewrite hostnames, remove results or "
+#~ "prioritize them based on the hostname"
+#~ msgstr "שכתוב כתובות, מחיקת תוצאות או תעדוף לפי הכתובת"
+
+#~ msgid "With that list, you can assess SearXNG transparency."
+#~ msgstr "בעזרת רשימה זאת, באפשרותך לגשת אל SearXNG transparency."
+
+#~ msgid ""
+#~ "These settings are stored in your "
+#~ "cookies, this allows us not to "
+#~ "store this data about you."
+#~ msgstr ""
+#~ "הגדרות אלו מאוחסנות בתוך העוגיות שלך,"
+#~ " אלו מאפשרות לנו להימנע מלאחסן את "
+#~ "מידע זה אודותיך."
+
+#~ msgid ""
+#~ "These cookies serve your sole "
+#~ "convenience, we don't use these cookies"
+#~ " to track you."
+#~ msgstr ""
+#~ "עוגיות אלו משרתות את נוחותך הבלעדית, "
+#~ "אנחנו לא משתמשים בהן כדי לעקוב "
+#~ "אחריך."
+
+#~ msgid "Proxying image results through SearXNG"
+#~ msgstr "העבר תוצאות תמונה דרך פרוקסי מבעד SearXNG"
+
+#~ msgid "Automatically load next page when scrolling to bottom of current page"
+#~ msgstr "טען אוטומטית של העמוד הבא בעת גלילה לתחתית העמוד"
+
+#~ msgid ""
+#~ "Perform search immediately if a category"
+#~ " selected. Disable to select multiple "
+#~ "categories"
+#~ msgstr "בצע חיפוש מיידי אם נבחרה קטגוריה. בטל על מנת לבחור מספר קטגוריות"
+
+#~ msgid "Change SearXNG layout"
+#~ msgstr "שנה את מערך SearXNG"
